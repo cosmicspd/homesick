@@ -3,7 +3,7 @@
 	"id": "homesick",
 	"version": "${version}",
 	"name": "homesick",
-	"description": "minecraft cheat mod, by cosmic, for education",
+    "description": "minecraft \"advanced utility\" mod, by cosmic, for education",
 	"authors": [
 		"cosmicspd"
 	],
@@ -11,11 +11,11 @@
 		"homepage": "https://coronamounta.in/",
 		"sources": "https://github.com/cosmicspd/homesick"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0",
 	"icon": "assets/homesick/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
+		"client": [
 			"com.cosmicspd.Homesick"
 		]
 	},
@@ -26,7 +26,8 @@
 		"fabricloader": ">=0.17.2",
 		"minecraft": "~1.21.6",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+        "fabric-key-binding-api-v1": "*"
 	},
 	"suggests": {
 		"another-mod": "*"
