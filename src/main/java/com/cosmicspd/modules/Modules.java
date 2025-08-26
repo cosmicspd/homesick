@@ -1,20 +1,20 @@
 package com.cosmicspd.modules;
 
-//import com.cosmicspd.modules.combat.*;
-//import com.cosmicspd.modules.player.*;
-//import com.cosmicspd.modules.movement.*;
-//import com.cosmicspd.modules.render.*;
-//import com.cosmicspd.modules.world.*;
+// import com.cosmicspd.modules.combat.*;
+// import com.cosmicspd.modules.player.*;
+// import com.cosmicspd.modules.movement.*;
+// import com.cosmicspd.modules.render.*;
+// import com.cosmicspd.modules.world.*;
 import com.cosmicspd.modules.chat.*;
-//import com.cosmicspd.modules.misc.*;
-//import com.cosmicspd.modules.client.*;
-
+// import com.cosmicspd.modules.misc.*;
+// import com.cosmicspd.modules.client.*;
 import com.cosmicspd.manager.System;
-
 import java.util.*;
 
+// TODO: activation/deactivation
+// TODO: settings
 public class Modules extends System<Modules> {
-    // TODO: CREATE CLASS
+
     private static final List<Category> CATEGORIES = new ArrayList<>();
     private static List<Module> MODULES = new ArrayList<>();
     private static List<Module> active = new ArrayList<>();
