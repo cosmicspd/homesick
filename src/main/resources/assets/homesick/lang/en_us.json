@@ -1,4 +1,20 @@
 {
-  "category.homesick.binds": "homesick",
+  "category.homesick.combat": "homesick: combat",
+
+  "category.homesick.player": "homesick: player",
+
+  "category.homesick.movement": "homesick: movement",
+
+  "category.homesick.render": "homesick: render",
+
+  "category.homesick.world": "homesick: world",
+
+  "category.homesick.chat": "homesick: chat",
+  "key.homesick.testmsg": "testmsg",
+
+  "category.homesick.misc": "homesick: misc.",
+
+  "category.homesick.client": "homesick: client (unsure)",
   "key.homesick.gui": "home menu (missing home atm)"
+
 }
