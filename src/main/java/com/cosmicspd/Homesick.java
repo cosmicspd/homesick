@@ -26,7 +26,6 @@ public class Homesick implements ClientModInitializer {
             MixinEnvironment.getCurrentEnvironment().audit();
         }
 
-        Categories.init(); // init categories so manager->modules has access
         Manager.init(); // init manager & systems
 
 		LOGGER.info("feeling homesick? :c");
